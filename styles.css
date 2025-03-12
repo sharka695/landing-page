@@ -87,10 +87,11 @@ figure figcaption {
 
 .quote {
   display: flex;
+  justify-content: center;
 }
 
 .quote .container {
-  width: 700px;
+/*  width: 700px;*/
 
   flex: 0 1 auto;
   display: flex;
@@ -125,15 +126,16 @@ figure figcaption {
   font-style: italic;
 
   width: 700px;
-
 /*  flex: 0 1 auto;*/
 }
 
-/*
-.quote > p {
+
+.quote > .container > p {
   align-self: flex-end;
+  font-size: 20px;
+  font-weight: bold;
 }
-*/
+
 
 button {
   background: #3882F6;
