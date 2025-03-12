@@ -91,7 +91,7 @@ figure figcaption {
 }
 
 .quote .container {
-/*  width: 700px;*/
+  width: 700px;
 
   flex: 0 1 auto;
   display: flex;
@@ -118,14 +118,18 @@ figure figcaption {
   display: flex;*/
 }
 
+.quote > .container > blockquote {
+  margin: 0 0;
+}
 
-.quote blockquote p {
-  font-color: #1F2937;
+.quote > .container > blockquote > p {
+  color: #1F2937;
   font-size: 36px;
   font-weight: lighter;
   font-style: italic;
 
-  width: 700px;
+  margin: 0;
+/*  width: 700px;*/
 /*  flex: 0 1 auto;*/
 }
 
